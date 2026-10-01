@@ -45,3 +45,10 @@ npx playwright install --with-deps chromium
 # Known Limitations
 Configured to run solely on Chromium 
 Focused on verifying only the 'Happy Path'. No coverage for negative form validation
+Checks for user settings not included
+
+# Future additions
+'Sad Path' tests to assess negative validations
+Visual confirmation of the 'Likes' feature
+Network mocking to assess UI error states - high latency, duplicate submissions
+Accessibility checks using @axe-core/playwright to check for WCAG regressions
